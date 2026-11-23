@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_xi9u4o1y"]
+
+[ext_resource type="Texture2D" uid="uid://acg_gfr516nl" id="Color" path="./Travertine005_2K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_d4jl9o16" id="AmbientOcclusion" path="./Travertine005_2K-JPG_AmbientOcclusion.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_6ilbyrfw" id="Displacement" path="./Travertine005_2K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_7rbfj5nd" id="Roughness" path="./Travertine005_2K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_6pmnj0x3" id="NormalGL" path="./Travertine005_2K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true

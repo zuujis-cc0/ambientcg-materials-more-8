@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_7xr9ilzj"]
+
+[ext_resource type="Texture2D" uid="uid://acg_6bun7j0h" id="Color" path="./ThatchedRoof001A_1K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_ndbialv4" id="AmbientOcclusion" path="./ThatchedRoof001A_1K-JPG_AmbientOcclusion.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_d2mtzh4w" id="Displacement" path="./ThatchedRoof001A_1K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_d6wfxqg0" id="Roughness" path="./ThatchedRoof001A_1K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_3po8tgn2" id="NormalGL" path="./ThatchedRoof001A_1K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
